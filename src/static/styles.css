@@ -65,32 +65,32 @@ section h3 {
   background-color: #f9f9f9;
 }
 
-.participants-section {
-  margin-top: 12px;
-  padding: 10px;
-  background-color: #e3eafc;
-  border-radius: 4px;
-  border: 1px solid #c5cae9;
-}
-
-.participants-section strong {
-  color: #1a237e;
-}
-
 .participants-list {
   margin-top: 6px;
-  margin-left: 18px;
-  list-style-type: disc;
+  margin-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
-
-.participant-email {
-  color: #3949ab;
-  font-size: 0.97em;
-  word-break: break-all;
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
 }
-
-.no-participants {
-  color: #757575;
+.delete-participant {
+  color: #c62828;
+  font-size: 1.2em;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: color 0.2s;
+  user-select: none;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.delete-participant:hover {
+  background: #ffebee;
+  color: #fff;
+  background-color: #c62828;
+}
   font-style: italic;
   margin-left: 4px;
 }
